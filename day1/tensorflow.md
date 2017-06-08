@@ -1,21 +1,5 @@
 ## [Lab 1 : tensorflow]
 
-**< supervised Learning >**
-
-- training set(labeled sample)이 존재.\
-ex)cats&dogs(Image labeling), Email spam filter, 시험성적 예측, AlphaGo
-
-* ```Regression``` : (0-100)과 같이 범위가 넓은 값을 예측.
-* ```Binary classification``` : Pass/non-pass와 같이 두가지 중 하나.
-* ```Multi-label classification``` :  성적(A,B,C,E,F)과 같이 여러가지 중 하나를 선택.
-
-**< unsupervised Learning >**
-
-- 데이터를 보고 스스로 학습. training set 없음.\
-ex) 유사한 뉴스기사 grouping, 비슷한 단어 grouping
-
-
-
 - ```tf.constant(“”)``` : constant(노드) 생성
 - ```tf.Session()``` : 노드의 Session 생성
 - ```print(tf.Session().run(tf.constant(“”)))``` : constant출력.
@@ -35,12 +19,12 @@ ex) 유사한 뉴스기사 grouping, 비슷한 단어 grouping
 a = tf.Placeholder(tf.float32)
 b = tf.Placeholder(tf.float32)
 adder_node = a + b
-print(sess.run(adder_node, feed_dict = {a:3, b:4.5})) : feed_dict에서 a,b에 값을 넣어준다.\
-이때 상수값외에도 배열이나 리스트도 가능하다.\
+print(sess.run(adder_node, feed_dict = {a:3, b:4.5})) : feed_dict에서 a,b에 값을 넣어준다.
+이때 상수값외에도 배열이나 리스트도 가능하다.
 print(sess.run(adder_node, feed_dict = {a:[1, 3], b:[2, 4]})) = [   3.   7.   ]
 ```
 
-**< Tensor에대해 알아보자 >**
+**< Tensor에 대해 알아보자 >**
 
 - 잘 사용하면 프로그래밍이 쉽겠다.
 - array로 되어있음
