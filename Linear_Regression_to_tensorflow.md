@@ -1,6 +1,7 @@
 ## [Lab 2 : Linear Regression to tensorflow]
 ￼
 ![lab2-1](/image_File/lab2-1.png)
+
 H(x)는 예측 value, y는 true value
 W, b값에 따라 값이 달라짐. **=> 이 값들을 이용해 제일 작은 값 찾기.**
 ```
@@ -65,7 +66,9 @@ for step in range(2001) :
 ### <tf 작동과정>
 
 **1. 그래프 빌드(설계)하기 
+
 ￼![lab2-2](/image_File/lab2-2.png)
+
  2. sess.run을 통해 그래프 실행\
 => feed_dict={X:[1,2,3], Y : [1,2,3]}
 
