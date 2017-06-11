@@ -25,6 +25,11 @@ H(x) = Wx +b
 
 ```Linear Hypothesis```와 ```Cost Function```을 합치면 다음과 같다.
 ￼
+![Alt text](/image_File/day2-2.png)
+
+
 ```Cost Function```은 W와 b의 Function이 된다.\
 ```Linear Regression```은 ```Cost Fuction```의 값을 작게하는게 목표.
 즉, 가장 작게만드는 W와 b 찾기.
+
+![Alt text](/image_File/day2-3.png)
