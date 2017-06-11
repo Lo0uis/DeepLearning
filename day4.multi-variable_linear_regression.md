@@ -31,7 +31,7 @@ H의 입력값이 많아지면, 길어지기 때문에, 보기좋게 Matrix로 �
 (73, 80, 75, 152) 이렇게 가로줄 하나를 instance라 한다.\
 총 5개의 instance. \
 각각을 식에 대입하여 계산하면, 비효율적.\
-![day4-6](/image_File/day4-6.png)\
+![day4-6](/image_File/day4-6.png)
 
 행렬의 특성을 이용해서 식을 변형시켜보았다.\
 X = [5, 3] matrix = [instance의 갯수, x의 variable의 갯수]\
@@ -44,7 +44,7 @@ H(x) = [5, 1] matrix = [instance의 갯수, 결과값은 당연히 1]\
 ![day4-7](/image_File/day4-7.png)\
 output이 2개이상일 때도, 행렬을 이용해서 하면 훨씬 보기쉽겠다.
 ****
-###<총정리>
+### <총정리>
 ![day4-8](/image_File/day4-8.png)\
 x가 하나로 주어지지않고 여러개로 주어지는 경우가 많기 때문에, 행렬을 많이 사용하게 될 것이다.
 
