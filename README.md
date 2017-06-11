@@ -6,4 +6,4 @@
 
 - Stanford Univ. CS 231n, Convolutional Neural Networks for Visual Recognition
 - 홍콩과기대 김성훈 교수님, 모두를 위한 딥러닝
-- Jeremy Howard, Practical Deep Learning For Coders
+- Jeremy Howard, [FastAI] Practical Deep Learning For Coders
