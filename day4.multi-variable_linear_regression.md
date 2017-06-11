@@ -2,7 +2,7 @@
 
 < reView >
 
-###Linear Regression을 설계하기 위해 필요한 3가지\
+### Linear Regression을 설계하기 위해 필요한 3가지
 - Hypothesis(우리의 가설이 무엇인지)
 - Cost Function(Cost를 어떻게 계산할 것 인지. 잘했는지/못했는지)
 - Gradient descent Algorithm(최적화 알고리즘)
