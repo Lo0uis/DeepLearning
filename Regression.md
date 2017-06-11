@@ -3,7 +3,7 @@
 - ```Regression``` : (0-100)과 같이 범위가 넓은 값을 예측.
 
 ```regression```은 training Data를 가지고 train을 함. 다 하게 되면 model(학습된 데이터)을 생성.\
-x값이 들어오면 ```regression```은 model을 통해 y값을 내보냄.\ 
+x값이 들어오면 ```regression```은 model을 통해 y값을 내보냄.\
 => ```Linear Regression```
 (x는 예측을 위한 자료(feature), y는 예측된 자료)
 
