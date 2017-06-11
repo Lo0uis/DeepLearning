@@ -115,5 +115,5 @@ for step in range(100):
 	print(step, sess.run([gradient, W, gvs]))
 	sess.run(apply_gradients)
 
-=> Same as sess.run(train)
+# Same as sess.run(train)
 ```
