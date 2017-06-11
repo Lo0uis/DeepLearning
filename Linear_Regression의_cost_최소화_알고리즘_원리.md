@@ -16,7 +16,7 @@
 ### Gradient descent algorithm
 - Cost Function을 minimize할 때 사용됨
 - 이외에도 많은 minimization problems를 해결할 때 사용됨
-- Cost(W,b)에서 cost를 minimize시키는 W, b값을 찾을때 사용 됨. 여러개의 값이 있는 cost Function도 가능.\￼
+- Cost(W,b)에서 cost를 minimize시키는 W, b값을 찾을때 사용 됨. 여러개의 값이 있는 cost Function도 가능.\
 ![day3-4](/image_File/day3-4.png)
 
 - 아무 지점에서나 시작가능
