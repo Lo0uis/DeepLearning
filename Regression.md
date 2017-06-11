@@ -21,15 +21,15 @@ H(x) = Wx +b
 
 ** *거리의 차를 제곱하게되면, 전부 양수로 표현가능. 또한 거리차이가 많이나는 것은 패널티를 더 주게되는 효과도 있다.**
 
-![Alt text](/image_File/day2-1.png)
+![day2-1](/image_File/day2-1.png)
 
 ```Linear Hypothesis```와 ```Cost Function```을 합치면 다음과 같다.
 ￼
-![Alt text](/image_File/day2-2.png)
+![day2-2](/image_File/day2-2.png)
 
 
 ```Cost Function```은 W와 b의 Function이 된다.\
 ```Linear Regression```은 ```Cost Fuction```의 값을 작게하는게 목표.
 즉, 가장 작게만드는 W와 b 찾기.
 
-![Alt text](/image_File/day2-3.png)
+![day2-3](/image_File/day2-3.png)
