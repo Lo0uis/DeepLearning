@@ -1,6 +1,6 @@
 ## [Lab 4-1 : multi-variable linear regression to tensorflow]
 ￼
-![lab4-1](/image_File/lab4-1.png)
+![lab4.1-1](/image_File/lab4.1-1.png)
 
 X1, X2, X3는 시험 점수, Y는 다음시험의 예상 점수
 
