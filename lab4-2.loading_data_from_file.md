@@ -126,7 +126,7 @@ print("Other scores will be ", sess.run(hypothesis,
                                         feed_dict={X: [[60, 70, 110], [90, 100, 80]]}))
 ```
 ****
-위에선, batch의 순서를 shuffle을 false로 했지만, shuffle을 사용해볼 수도 있다.
+위에선, batch의 순서를 shuffle을 false로 했지만, shuffle을 사용해볼 수도 있다. 
 ```
 # min_after_dequeue defines how big a buffer we will randomly sample
 #   from -- bigger means better shuffling but slower start up and more
