@@ -8,7 +8,7 @@ csv는 ','로 구분되는 data file.
 **=>파일에 저장해서 불러오자.**
 
 ### <1개 파일 갖고오기>
-이때 numpy의 loadtxt를 이용하자. 이때, csv파일의 데이터값은 모두 같은 타입이어야 함.
+numpy의 loadtxt를 이용하자. 이때, csv파일의 데이터값은 모두 같은 타입이어야 한다.
 ```
 import numpy as np
 ```
@@ -35,8 +35,8 @@ print(y_data.shape, y_data)
 
 ![lab4.2-2](/image_File/lab4.2-2.png)
 
-### Queue Runner를 사용하자.\
-**=> 메모리를 굉장히 절약할 수 있겠다.**\
+### Queue Runner를 사용하자. \
+**=> 메모리를 굉장히 절약할 수 있겠다.**
 1. 파일들을 큐에 쌓는다.
 ```
 filename_queue = tf.train.string_input_producer(
@@ -91,7 +91,7 @@ sess = tf.Session()
  #Initializes global Variables in the graph
 sess.run(tf.global_variables_initializer())
 ```
-### 1개 파일 갖고올 때\
+### 1개 파일 갖고올 때
 ```
  for step in range(2001):
     cost_val, hy_val, _ = sess.run(
@@ -99,7 +99,7 @@ sess.run(tf.global_variables_initializer())
     if step % 10 == 0:
         print(step, "Cost: ", cost_val, "\nPrediction:\n", hy_val)
 ```
-### 여러개 파일 갖고올 때\
+### 여러개 파일 갖고올 때
 ```
 # Start populating the filename queue.
 coord = tf.train.Coordinator()
@@ -126,7 +126,7 @@ print("Other scores will be ", sess.run(hypothesis,
                                         feed_dict={X: [[60, 70, 110], [90, 100, 80]]}))
 ```
 ****
-위에선, batch의 순서를 shuffle을 false로 했지만, shuffle을 사용해볼 수도 있다.\
+위에선, batch의 순서를 shuffle을 false로 했지만, shuffle을 사용해볼 수도 있다.
 ```
 # min_after_dequeue defines how big a buffer we will randomly sample
 #   from -- bigger means better shuffling but slower start up and more
