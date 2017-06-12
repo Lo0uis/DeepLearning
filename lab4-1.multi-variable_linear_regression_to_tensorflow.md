@@ -57,7 +57,7 @@ Y = tf.placeholder(tf.float32, shape=[None, 1])
 W = tf.Variable(tf.random_normal([3, 1]), name='weight')
 b = tf.Variable(tf.random_normal([1]), name='bias')
 ```
-
+****
 ```
 #Hypothesis XW+b
 hypothesis = x1 * w1 + x2 * w2 + x3 * w3 + b
