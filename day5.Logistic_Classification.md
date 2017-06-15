@@ -54,7 +54,7 @@ y=0일 때, C(H(x), y)= -log(1-H(x))
 **But, tensorflow에서 구현하기 힘듬. 둘을 합친 하나의 수식을 생성하자.**
 
 ![day5-7](/image_File/day5-7.png)\
-(TODO. ylog(H(x))앞에 - 추가할것.)
+
 
 cost function을 구했으니, gradient decent algorithm을 구하자.
 
